@@ -1,3 +1,6 @@
 tok
-*.txt
+copy.txt
+logs.txt
+master.txt 
+
 test.py
