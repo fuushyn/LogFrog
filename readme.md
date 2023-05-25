@@ -9,7 +9,13 @@ FrogLog is an efficient, thread-safe logging library in Python. This nimble logg
 - **Function Logging:** Automatically log function calls, tracking names, arguments, and return values.
 - **Stack Tracing:** Log the current stack trace, invaluable for debugging and understanding complex code execution paths.
 
+## Installation
+```
+pip install logfrog
+```
+
 ## Usage
+
 
 ```python
 from froglog import FrogLog
