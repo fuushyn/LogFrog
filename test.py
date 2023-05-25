@@ -7,6 +7,7 @@ log = PyLog('logs.txt')
 
 @log.log_function
 def update_main():
+    log.log_stack()
     i =0
     while(i<20):
         i+=1

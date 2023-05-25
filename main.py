@@ -1,6 +1,8 @@
 import datetime
 from threading import Thread 
 from queue import Queue 
+import traceback 
+
 
 class PyLog:
     def __init__(self, filename= "logs.txt"):   
@@ -53,3 +55,7 @@ class PyLog:
             return result
         return wrapper
 
+    def log_stack(self):
+        stack = traceback.extract_stack()[:-1]  # remove the last entry
+        stack_trace = "".join(traceback.format_list(stack))
+        self.info(stack_trace)

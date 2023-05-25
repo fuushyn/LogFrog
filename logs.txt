@@ -40,3 +40,67 @@
 2023-05-26 00:53:02 'INFO' '76'
 2023-05-26 00:53:03 'INFO' '45'
 2023-05-26 00:53:04 'INFO' '79'
+2023-05-26 01:04:46 '  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lakshya.gupta/dev/pylogg/main.py", line 53, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/lakshya.gupta/dev/pylogg/test.py", line 10, in update_main
+    log.log_stack()
+  File "/Users/lakshya.gupta/dev/pylogg/main.py", line 59, in log_stack
+    stack = traceback.format_stack()
+' 'INFO'
+2023-05-26 01:04:46 'INFO' '90'
+2023-05-26 01:04:47 'INFO' '63'
+2023-05-26 01:04:48 'INFO' '57'
+2023-05-26 01:04:49 'INFO' '54'
+2023-05-26 01:04:50 'INFO' '58'
+2023-05-26 01:04:51 'INFO' '93'
+2023-05-26 01:04:52 'INFO' '87'
+2023-05-26 01:04:53 'INFO' '1'
+2023-05-26 01:04:54 'INFO' '60'
+2023-05-26 01:04:55 'INFO' '60'
+2023-05-26 01:04:56 'INFO' '49'
+2023-05-26 01:04:57 'INFO' '12'
+2023-05-26 01:04:58 'INFO' '68'
+2023-05-26 01:04:59 'INFO' '92'
+2023-05-26 01:05:00 'INFO' '36'
+2023-05-26 01:05:01 'INFO' '82'
+2023-05-26 01:05:02 'INFO' '40'
+2023-05-26 01:05:03 'INFO' '34'
+2023-05-26 01:05:04 'INFO' '74'
+2023-05-26 01:05:05 'INFO' '49'
+2023-05-26 01:06:56 '  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lakshya.gupta/dev/pylogg/main.py", line 53, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/lakshya.gupta/dev/pylogg/test.py", line 10, in update_main
+    log.log_stack()
+' 'INFO'
+2023-05-26 01:06:56 'INFO' '10'
+2023-05-26 01:06:57 'INFO' '10'
+2023-05-26 01:06:58 'INFO' '1'
+2023-05-26 01:06:59 'INFO' '45'
+2023-05-26 01:07:00 'INFO' '1'
+2023-05-26 01:07:01 'INFO' '65'
+2023-05-26 01:07:02 'INFO' '6'
+2023-05-26 01:07:03 'INFO' '64'
+2023-05-26 01:07:04 'INFO' '45'
+2023-05-26 01:07:05 'INFO' '24'
+2023-05-26 01:07:06 'INFO' '61'
+2023-05-26 01:07:07 'INFO' '31'
+2023-05-26 01:07:08 'INFO' '35'
+2023-05-26 01:07:09 'INFO' '59'
+2023-05-26 01:07:10 'INFO' '86'
+2023-05-26 01:07:11 'INFO' '27'
+2023-05-26 01:07:12 'INFO' '87'
+2023-05-26 01:07:13 'INFO' '84'
+2023-05-26 01:07:14 'INFO' '63'
+2023-05-26 01:07:15 'INFO' '28'
