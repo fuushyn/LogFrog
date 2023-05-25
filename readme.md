@@ -1,6 +1,6 @@
-# PyLog
+# FrogLog
 
-PyLog is an efficient, thread-safe logging library in Python. This nimble logger, designed with simplicity, offers non-blocking, asynchronous logging, making it perfect for applications that prioritize performance.
+FrogLog is an efficient, thread-safe logging library in Python. This nimble logger, designed with simplicity, offers non-blocking, asynchronous logging, making it perfect for applications that prioritize performance.
 
 ## Features
 
@@ -12,9 +12,9 @@ PyLog is an efficient, thread-safe logging library in Python. This nimble logger
 ## Usage
 
 ```python
-from pylog import PyLog
+from froglog import FrogLog
 
-logger = PyLog(filename="app.log")
+logger = FrogLog(filename="app.log")
 
 # Dispatch logs
 logger.info("Info message")
@@ -53,4 +53,4 @@ Thanks for making it this far! Here are some pointers to get you started -
 
 - **Filtering and Searching:** Provide capabilities to filter and search logs based on certain criteria, such as log level, timestamp, or content.
 
-Thank you for your interest in PyLog. We look forward to your contributions!
+Thank you for your interest in FrogLog. We look forward to your contributions!

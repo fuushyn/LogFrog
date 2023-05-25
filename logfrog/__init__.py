@@ -1,1 +1,1 @@
-from .logfrog import Logfrog
+from .logfrog import LogFrog

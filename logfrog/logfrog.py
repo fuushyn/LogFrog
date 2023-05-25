@@ -4,7 +4,7 @@ from queue import Queue
 import traceback 
 
 
-class Logfrog:
+class LogFrog:
     def __init__(self, filename= "logs.txt"):   
         self.filename = filename
         self.log_queue = Queue()
