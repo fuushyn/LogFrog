@@ -30,6 +30,7 @@ class PyLog:
 
     def log_function(self, func):
         def wrapper(*args, **kwargs):
-            self.write_log("FUNCTION LOG", f"{func.__name__} {args} {kwargs}")
-            return func()
+            result = func(*args, **kwargs)
+            self.write_log("FUNCTION LOG", f"{func.__name__} {args} {kwargs} returned result")
+            return result
         return wrapper
