@@ -1,6 +1,6 @@
-# FrogLog
+# LogFrog
 
-FrogLog is an efficient, thread-safe logging library in Python. This nimble logger, designed with simplicity, offers non-blocking, asynchronous logging, making it perfect for applications that prioritize performance.
+LogFrog is an efficient, thread-safe logging library in Python. This nimble logger, designed with simplicity, offers non-blocking, asynchronous logging, making it perfect for applications that prioritize performance.
 
 ## Features
 
@@ -18,9 +18,9 @@ pip install logfrog
 
 
 ```python
-from froglog import FrogLog
+from logfrog import LogFrog
 
-logger = FrogLog(filename="app.log")
+logger = LogFrog(filename="app.log")
 
 # Dispatch logs
 logger.info("Info message")
@@ -59,4 +59,4 @@ Thanks for making it this far! Here are some pointers to get you started -
 
 - **Filtering and Searching:** Provide capabilities to filter and search logs based on certain criteria, such as log level, timestamp, or content.
 
-Thank you for your interest in FrogLog. We look forward to your contributions!
+Thank you for your interest in LogFrog. We look forward to your contributions!
